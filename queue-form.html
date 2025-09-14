@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queue Status Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="queue-body">
+    <div class="queue-form">
+    
+
+  <section class="queue-form">
+    <h2>Check Your Queue</h2>
+    <p>Enter your Patient ID and select the department to view your queue position.</p>
+
+    <form>
+      <!-- Patient ID -->
+      <label for="patient-id">Patient ID:</label>
+      <input type="text" id="patient-id" placeholder="Enter Patient ID" required><br><br>
+
+      <!-- Department Dropdown -->
+      <label for="department">Select Department:</label>
+      <select id="department" required>
+        <option value="">-- Choose Department --</option>
+        <option value="cardiology">Cardiology</option>
+        <option value="orthopedics">Orthopedics</option>
+        <option value="neurology">Neurology</option>
+        <option value="pediatrics">Pediatrics</option>
+        <option value="dermatology">Dermatology</option>
+      </select>
+
+      <!-- Submit Button -->
+      <a href="queue.html" class="button">Check Status</a>
+
+    </form>
+</div>
+    
+   
+  </section>
+</body>
+</html>
